@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScrollViewBackgroundChange : MonoBehaviour
 {
 
-    [Header("Drag & Drop the backgound image")]
+    [Tooltip("Drag & Drop the backgound image")]
     public Image backgoundImage;
 
     public List<Sprite> allBackgroundImage = new List<Sprite>();
